@@ -1,9 +1,6 @@
 <% provide :title, t(".help") %>
-<%= link_to t(".eng"), locale: "en" %>
-<%= link_to t(".vie"), locale: "vi" %>
 <h1><%= t(".help") %></h1>
 <p>
-  <%= t(".pagehelp") %> <%= link_to t(".helppage"), "https://www.railstutorial.org/help" %>
-  <p></p>
-  <%= t(".apphelp") %> <%= link_to t(".book"), "https://www.railstutorial.org/book" %>
+  <%= t(".pagehelp") %> <%= link_to t(".helppage"), Settings.rails_help %>
+  <%= t(".apphelp") %> <%= link_to t(".book"), Settings.rails_book %>
 </p>

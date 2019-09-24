@@ -1,39 +1,63 @@
 vi:
-  static_pages: 
+  static_pages:
     home:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      sample: Ứng dụng mới
+      sample: Ứng dụng
       tutorial: Đây là trang chủ của
       home: Trang chủ
-      theruby: Ruby on Rails Tutorial
+      the_ruby: Ruby on Rails Tutorial
+      signup: Đăng ký ngay!
     help:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      help: Trợ giúp
+      help: Hỗ trợ
       pagehelp: Nhận trợ giúp trên Ruby on Rails tại
       apphelp: Nhận trợ giúp về ứng dụng này, hãy xem
       helppage: Trang hỗ trợ Rails Tutorial
       book: Sách Ruby on Rails Tutorial
+      signup: Đăng ký ngay!
     contact:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      con: Liên hệ
-      ctRoR: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
-      ctpage: trang liên hệ
+      contact: Liên hệ
+      contact_ruby_on_rails: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
+      contactpage: trang liên hệ
     about:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      ab: Thông tin
-      twdw: để dạy phát triển web với
-      saftt: đây là ứng dụng mẫu cho hướng dẫn
+      about: Thông tin
+      to_teach_web_development_with: để dạy phát triển web với
+      sample_app_tutorial: đây là ứng dụng mẫu cho hướng dẫn
       and: và
-      isa: là một
+      i_sa: là một
       theruby: Ruby on Rails Tutorial
-      b: sách
+      book: sách
       series: sê-ri screencast
-      ror: Ruby on Rails
-  layouts: 
-    application: 
+      ruby_on_rails: Ruby on Rails
+  layouts:
+    application:
       sample: Ứng dụng mẫu
-      rorsa: Ứng dụng mẫu Ruby on Rails
+      ruby_on_rails_sample_app: Ứng dụng mẫu Ruby on Rails
+      home: Trang chủ
+      help: Hỗ trợ
+      login: Đăng nhập
+    header:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      sample_app: Ứng dụng
+      home: Trang chủ
+      help: Hỗ trợ
+      login: Đăng nhập
+    footer:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      about: Thông tin
+      contact: Liên hệ
+      news: Tin tức
+      the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
+      by_MH: tác giả Michael Hartl
+  users:
+    new:
+      sign_up: Đăng ký
+      sign_up_page: Đây sẽ là trang đăng ký cho nguời dùng mới
