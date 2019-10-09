@@ -1,12 +1,13 @@
 en:
-  static_pages: 
+  static_pages:
     home:
       eng: English
       vie: Vietnamese
       sample: Sample App
       tutorial: This is the home page for the
       home: Home
-      theruby: Ruby on Rails Tutorial
+      the_ruby: Ruby on Rails Tutorial
+      signup: Sign up now!
     help:
       eng: English
       vie: Vietnamese
@@ -15,25 +16,49 @@ en:
       apphelp: To get help on this sample app, see the
       helppage: Rails Tutorial help page
       book: Ruby on Rails Tutorial book
+      signup: Sign up now!
     contact:
       eng: English
       vie: Vietnamese
-      con: Contact
-      ctRoR: Contact the Ruby on Rails Tutorial about the sample app at the
-      ctpage: contact page
+      contact: Contact
+      contact_ruby_on_rails: Contact the Ruby on Rails Tutorial about the sample app at the
+      contactpage: contact page
+      signup: Sign up now!
     about:
       eng: English
       vie: Vietnamese
-      ab: About
-      twdw: to teach web development with
-      saftt: This is the sample application for the tutorial
+      about: About
+      to_teach_web_development_with: to teach web development with
+      sample_app_tutorial: This is the sample application for the tutorial
       and: and
-      isa: is a
-      theruby: Ruby on Rails Tutorial
-      b: book
+      i_sa: is a
+      the_ruby: Ruby on Rails Tutorial
+      book: book
       series: screencast series
-      ror: Ruby on Rails
-  layouts: 
-    application: 
+      ruby_on_rails: Ruby on Rails
+  layouts:
+    application:
       sample: Sample app
-      rorsa: Ruby on Rails Tutorial Sample App
+      ruby_on_rails_sample_app: Ruby on Rails Tutorial Sample App
+      home: Home
+      help: Help
+      login: Log in
+    header:
+      eng: English
+      vie: Vietnamese
+      sample_app: Sample App
+      home: Home
+      help: Help
+      login: Log in
+    footer:
+      eng: English
+      vie: Vietnamese
+      about: About
+      contact: Contact
+      news: News
+      the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
+      by_MH: by Michael Hartl
+  users:
+    new:
+      sign_up: Sign up
+      sign_up_page: This will be sign up page for new users
