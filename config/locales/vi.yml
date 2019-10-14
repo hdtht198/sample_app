@@ -49,6 +49,10 @@ vi:
       home: Trang chủ
       help: Hỗ trợ
       login: Đăng nhập
+      logout: Đăng xuất
+      profile: Thông tin tài khoản
+      settings: Tùy chọn
+      users: Người dùng
     footer:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -60,4 +64,24 @@ vi:
   users:
     new:
       sign_up: Đăng ký
-      sign_up_page: Đây sẽ là trang đăng ký cho nguời dùng mới
+      create_my_account: Tạo tài khoản
+      name: Tên
+      email: Địa chỉ email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+    create:
+      welcome: Chào mừng đến với Ứng dụng mẫu
+      warning: Thông tin không hợp lệ
+    notfound: Người dùng không tồn tại
+  the_form_contains: Mẫu đăng ký chứa
+  error:
+    one: 1 lỗi
+    other: "%{count} lỗi"
+  sessions:
+    notification: Invalid email/password combination
+    new:
+      email: Tài khoản
+      password: Mật khẩu
+      login: Đăng nhập
+      new_user: Chưa có tài khoản?
+      sign_up_now: Đăng ký ngay!
