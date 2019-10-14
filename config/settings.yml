@@ -9,4 +9,5 @@ michaelhartl: http://www.michaelhartl.com/
 max50: 50
 max255: 255
 min6: 6
-stringregex: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+n80: 80
+stringregex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'

@@ -60,4 +60,16 @@ vi:
   users:
     new:
       sign_up: Đăng ký
-      sign_up_page: Đây sẽ là trang đăng ký cho nguời dùng mới
+      create_my_account: Tạo tài khoản
+      name: Tên
+      email: Địa chỉ email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+    create:
+      welcome: Chào mừng đến với Ứng dụng mẫu
+      warning: Thông tin không hợp lệ
+    notfound: Người dùng không tồn tại
+  the_form_contains: Mẫu đăng ký chứa
+  error:
+    one: 1 lỗi
+    other: "%{count} lỗi"
