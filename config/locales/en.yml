@@ -49,6 +49,10 @@ en:
       home: Home
       help: Help
       login: Log in
+      logout: Log out
+      profile: Profile
+      settings: Settings
+      users: Users
     footer:
       eng: English
       vie: Vietnamese
@@ -73,3 +77,12 @@ en:
   error:
     one: 1 error
     other: "%{count} errors"
+  invalid_email_password:
+  sessions:
+    notification: Invalid email/password combination
+    new:
+      email: Email
+      password: Password
+      login: Login
+      new_user: New user?
+      sign_up_now: Sign up now!

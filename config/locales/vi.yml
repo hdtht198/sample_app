@@ -49,6 +49,10 @@ vi:
       home: Trang chủ
       help: Hỗ trợ
       login: Đăng nhập
+      logout: Đăng xuất
+      profile: Thông tin tài khoản
+      settings: Tùy chọn
+      users: Người dùng
     footer:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -73,3 +77,11 @@ vi:
   error:
     one: 1 lỗi
     other: "%{count} lỗi"
+  sessions:
+    notification: Invalid email/password combination
+    new:
+      email: Tài khoản
+      password: Mật khẩu
+      login: Đăng nhập
+      new_user: Chưa có tài khoản?
+      sign_up_now: Đăng ký ngay!
