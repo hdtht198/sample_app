@@ -53,6 +53,7 @@ vi:
       profile: Thông tin tài khoản
       settings: Tùy chọn
       users: Người dùng
+      account: Tài khoản
     footer:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -78,10 +79,12 @@ vi:
     one: 1 lỗi
     other: "%{count} lỗi"
   sessions:
-    notification: Invalid email/password combination
+    notification: Tài khoản hoặc mật khẩu không đúng
     new:
       email: Tài khoản
       password: Mật khẩu
       login: Đăng nhập
       new_user: Chưa có tài khoản?
       sign_up_now: Đăng ký ngay!
+      remember: Ghi nhớ tôi trên máy tính này
+      remember_me: remember_me
