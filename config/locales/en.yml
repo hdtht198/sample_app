@@ -53,6 +53,7 @@ en:
       profile: Profile
       settings: Settings
       users: Users
+      account: Account
     footer:
       eng: English
       vie: Vietnamese
@@ -86,3 +87,5 @@ en:
       login: Login
       new_user: New user?
       sign_up_now: Sign up now!
+      remember: Remember me on this computer
+      remember_me: remember_me
