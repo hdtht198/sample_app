@@ -10,4 +10,7 @@ max50: 50
 max255: 255
 min6: 6
 n80: 80
+n25: 25
+n50: 50
 stringregex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+gravatar: http://gravatar.com/emails

@@ -53,6 +53,7 @@ vi:
       profile: Thông tin tài khoản
       settings: Tùy chọn
       users: Người dùng
+      account: Tài khoản
     footer:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -62,26 +63,45 @@ vi:
       the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
       by_MH: tác giả Michael Hartl
   users:
-    new:
-      sign_up: Đăng ký
-      create_my_account: Tạo tài khoản
+    form:
       name: Tên
       email: Địa chỉ email
       password: Mật khẩu
       confirmation: Xác nhận mật khẩu
+    user:
+      delete: Xóa
+      you_sure: Chắc chưa?
+    new:
+      sign_up: Đăng ký
+      create_my_account: Tạo tài khoản
+    edit:
+      change: Thay đổi
+      edit_user: Sửa thông tin
+      save_changes: Lưu thay đổi
     create:
       welcome: Chào mừng đến với Ứng dụng mẫu
       warning: Thông tin không hợp lệ
+    index:
+      all_users: Tất cả tài khoản
     notfound: Người dùng không tồn tại
+    update:
+      profile_updated: Cập nhật thành công.
+      update_fail: Cập nhật không thành công
+    logged_in_user:
+      please_log_in: Làm ơn hãy đăng nhập.
+    destroy:
+      deleted: Đã xóa
   the_form_contains: Mẫu đăng ký chứa
   error:
     one: 1 lỗi
     other: "%{count} lỗi"
   sessions:
-    notification: Invalid email/password combination
+    notification: Tài khoản hoặc mật khẩu không đúng
     new:
       email: Tài khoản
       password: Mật khẩu
       login: Đăng nhập
       new_user: Chưa có tài khoản?
       sign_up_now: Đăng ký ngay!
+      remember: Ghi nhớ tôi trên máy tính này
+      remember_me: remember_me
