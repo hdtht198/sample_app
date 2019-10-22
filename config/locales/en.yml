@@ -63,17 +63,34 @@ en:
       the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
       by_MH: by Michael Hartl
   users:
-    new:
-      sign_up: Sign up
-      create_my_account: Create my account
+    form:
       name: Name
       email: Email
       password: Password
       confirmation: Confirmation
+    user:
+      delete: Delete
+      you_sure: You sure?
+    new:
+      sign_up: Sign up
+      create_my_account: Create my account
+    edit:
+      change: Change
+      edit_user: Edit user
+      save_changes: Save changes
     create:
       welcome: Welcome to Sample App!!!
       warning: Invalid information
+    index:
+      all_users: All users
     notfound: User doesn't exist
+    update:
+      profile_updated: Profile updated.
+      update_fail: Update failed
+    logged_in_user:
+      please_log_in: Please log in.
+    destroy:
+      deleted: Deleted
   the_form_contains: The form contains
   error:
     one: 1 error
