@@ -79,6 +79,7 @@ vi:
       edit_user: Sửa thông tin
       save_changes: Lưu thay đổi
     create:
+      please_check: Hãy kiểm tra email để kích hoạt tài khoản của bạn
       welcome: Chào mừng đến với Ứng dụng mẫu
       warning: Thông tin không hợp lệ
     index:
@@ -105,3 +106,19 @@ vi:
       sign_up_now: Đăng ký ngay!
       remember: Ghi nhớ tôi trên máy tính này
       remember_me: remember_me
+  account_not_check_email_activation: Tài khoản chưa được xác thực. Kiểm tra email của bạn để xác thực tài khoản.
+  account_activated: Tài khoản được kích hoạt!
+  invalid_activation_link: Đường link kích hoạt không hợp lệ!
+  user_mailer:
+    account_activation:
+      sample: Ứng dụng
+      hi: Xin chào
+      welcome_click: "Chào mừng đến Ứng dụng! Click vào đường link bên dưới để
+      kích hoạt tài khoản :"
+      activate: Kích hoạt
+    password_reset:
+      user_password: User#password_reset
+      find: tìm tôi trong
+  mailers:
+    account_activation: Kích hoạt tài khoản
+    hi: Xin chào

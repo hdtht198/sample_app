@@ -4,13 +4,14 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.6.3"
 
 gem "bcrypt", "3.1.12"
-gem "faker"
-gem "kaminari"
-gem "bootstrap-kaminari-views"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
 gem "config"
+gem "faker"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
+gem "kaminari"
 gem "puma", "~> 3.11"
 gem "rails", "~> 6.0.0"
 gem "sass-rails", "~> 5"
