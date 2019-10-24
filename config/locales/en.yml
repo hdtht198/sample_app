@@ -79,6 +79,7 @@ en:
       edit_user: Edit user
       save_changes: Save changes
     create:
+      please_check: Please check your email to activate your account
       welcome: Welcome to Sample App!!!
       warning: Invalid information
     index:
@@ -95,7 +96,6 @@ en:
   error:
     one: 1 error
     other: "%{count} errors"
-  invalid_email_password:
   sessions:
     notification: Invalid email/password combination
     new:
@@ -106,3 +106,19 @@ en:
       sign_up_now: Sign up now!
       remember: Remember me on this computer
       remember_me: remember_me
+  account_not_check_email_activation: Account not activated. Check your email for the activation link.
+  account_activated: Account activated!
+  invalid_activation_link: Invalid activation link!
+  user_mailer:
+    account_activation:
+      sample: Sample App
+      hi: Hi
+      welcome_click: "Welcome to the Sample App! Click on the link below to
+      activate your account :"
+      activate: Activate
+    password_reset:
+      user_password: User#password_reset
+      find: find me in
+  mailers:
+    account_activation: Account activation
+    hi: Hi
