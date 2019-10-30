@@ -78,6 +78,7 @@ en:
       change: Change
       edit_user: Edit user
       save_changes: Save changes
+      update_profile: Update your profile
     create:
       please_check: Please check your email to activate your account
       welcome: Welcome to Sample App!!!
@@ -106,9 +107,29 @@ en:
       sign_up_now: Sign up now!
       remember: Remember me on this computer
       remember_me: remember_me
+      forgot_password: (forgot password?)
+  password_resets:
+    new:
+      forgot: Forgot password
+      email: Email
+      submit: Submit
+    create:
+      email_sent: Email sent with password reset instructions
+      email_not_found: Email address not found
+    edit:
+      reset_password: Reset password
+      update_password: Update password
+      password: Password
+      confirmation: Confirmation
+    update:
+      can't_empty: can't be empty
+      has_been_reset: Password has been reset.
+  password_reset_invalid: password reset is invalid.
+  password_reset_expired: Password reset has expired.
   account_not_check_email_activation: Account not activated. Check your email for the activation link.
   account_activated: Account activated!
   invalid_activation_link: Invalid activation link!
+  email_not_found: Email not found
   user_mailer:
     account_activation:
       sample: Sample App
@@ -119,6 +140,11 @@ en:
     password_reset:
       user_password: User#password_reset
       find: find me in
+      password_reset: Reset password
+      password_reset_message: "To reset your password click the link below:"
+      link_will_expired: This link will expire in two hours.
+      if_did_not_request: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
   mailers:
     account_activation: Account activation
     hi: Hi
+    password_reset: Password reset
