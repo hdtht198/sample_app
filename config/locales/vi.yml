@@ -78,6 +78,7 @@ vi:
       change: Thay đổi
       edit_user: Sửa thông tin
       save_changes: Lưu thay đổi
+      update_profile: Cập nhật hồ sơ của bạn
     create:
       please_check: Hãy kiểm tra email để kích hoạt tài khoản của bạn
       welcome: Chào mừng đến với Ứng dụng mẫu
@@ -106,9 +107,29 @@ vi:
       sign_up_now: Đăng ký ngay!
       remember: Ghi nhớ tôi trên máy tính này
       remember_me: remember_me
+      forgot_password: (quên mật khẩu?)
+  password_resets:
+    new:
+      forgot: Quên mật khẩu
+      email: Tài khoản
+      submit: Okela!
+    create:
+      email_sent: Email đã được gửi với hướng dẫn đặt lại mật khẩu
+      email_not_found: Không tìm thấy địa chỉ email
+    edit:
+      reset_password: Đặt lại mật khẩu
+      update_password: Cập nhật mật khẩu
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+    update:
+      can't_empty: không được để trống
+      has_been_reset: Mật khẩu đã được đặt lại.
+  password_reset_invalid: Đặt lại mật khẩu không hợp lệ.
+  password_reset_expired: Đã hết hạn đặt lại mật khẩu.
   account_not_check_email_activation: Tài khoản chưa được xác thực. Kiểm tra email của bạn để xác thực tài khoản.
   account_activated: Tài khoản được kích hoạt!
   invalid_activation_link: Đường link kích hoạt không hợp lệ!
+  email_not_found: Không tìm thấy email
   user_mailer:
     account_activation:
       sample: Ứng dụng
@@ -119,6 +140,11 @@ vi:
     password_reset:
       user_password: User#password_reset
       find: tìm tôi trong
+      password_reset: Đặt lại mật khẩu
+      password_reset_message: "Click vào link bên dưới để đặt lại mật khẩu của bạn:"
+      link_will_expired: Link này sẽ hết hạn sau 2h.
+      if_did_not_request: Nếu không yêu cầu đặt lại mật khẩu, hãy hủy email naỳ và mật khẩu của bạn sẽ không thay đổi.
   mailers:
     account_activation: Kích hoạt tài khoản
     hi: Xin chào
+    password_reset: Đặt lại mật khẩu
